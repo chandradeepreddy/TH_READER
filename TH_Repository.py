@@ -72,3 +72,88 @@ def TH_Article_URL_DBInsert(ArtDict,pw):
 		data = (url_dt, url)
 		cursor.execute(query, data)
 		conn.commit()
+
+
+
+
+
+
+
+"""
+List of Hindu Url section keywords using URL_String_Split.sql:
+
+tp-andhrapradesh
+tp-bookreview
+tp-business
+tp-cinemaplus
+tp-downtown
+tp-editorialfeatures
+tp-educationplus
+tp-features
+tp-fridayreview
+tp-in-school
+tp-international
+tp-karnataka
+tp-kerala
+tp-metroplus
+tp-miscellaneous
+tp-mumbai
+tp-national
+tp-neighbourhood
+tp-newdelhi
+tp-nxg
+tp-openpage
+tp-opinion
+tp-opportunities
+tp-others
+tp-otherstates
+tp-propertyplus
+tp-sci-tech-and-agri
+tp-sports
+tp-sundaymagazine
+tp-tamilnadu
+tp-telangana
+tp-youngworld
+
+
+
+also combinations
+
+
+	
+	
+tp-business	
+tp-features	
+tp-features	tp-bookreview
+tp-features	tp-cinemaplus
+tp-features	tp-downtown
+tp-features	tp-editorialfeatures
+tp-features	tp-educationplus
+tp-features	tp-fridayreview
+tp-features	tp-metroplus
+tp-features	tp-neighbourhood
+tp-features	tp-nxg
+tp-features	tp-openpage
+tp-features	tp-opportunities
+tp-features	tp-propertyplus
+tp-features	tp-sci-tech-and-agri
+tp-features	tp-sundaymagazine
+tp-features	tp-youngworld
+tp-in-school	
+tp-international	
+tp-miscellaneous	
+tp-miscellaneous	tp-others
+tp-national	
+tp-national	tp-andhrapradesh
+tp-national	tp-karnataka
+tp-national	tp-kerala
+tp-national	tp-mumbai
+tp-national	tp-newdelhi
+tp-national	tp-otherstates
+tp-national	tp-tamilnadu
+tp-national	tp-telangana
+tp-opinion	
+tp-sports	
+
+
+"""
